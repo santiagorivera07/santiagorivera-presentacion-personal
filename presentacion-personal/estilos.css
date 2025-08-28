@@ -7,6 +7,7 @@ root {
 --primary-hover: #1d4ed8;
 --shadow: 0 4px 12px rgba(0,0,0,0.1);
 --radius: 12px;
+
 }
 
 * {
@@ -20,6 +21,7 @@ font-family: "Segoe UI", Arial, sans-serif;
 background: var(--bg);
 color: var(--text);
 line-height: 1.6;
+text-align: center;
 }
 
 /* =========================
@@ -36,12 +38,13 @@ SIDEBAR (MENÚ IZQUIERDO)
 .sidebar {
 width: 230px;
 background: var(--primary);
-color: #e40d0d;
+color: #df1818;
 padding: 20px;
 position: fixed;
 top: 0;
 bottom: 0;
 left: 0;
+text-align: left;
 }
 
 .sidebar h2 {
@@ -149,7 +152,7 @@ margin-top: 15px;
 table th, table td {
 border: 1px solid #e5e7eb;
 padding: 12px;
-text-align: left;
+text-align: center
 }
 
 table th {
@@ -164,7 +167,7 @@ background: #f9fafb;
 /* =========================
 RESPONSIVE
 ========================= */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
 .layout {
     flex-direction: column;
 }
@@ -182,7 +185,4 @@ RESPONSIVE
 
 .profile {
     flex-direction: column;
-    text-align: center;
-}
-}
-
+    text-align: center;}
