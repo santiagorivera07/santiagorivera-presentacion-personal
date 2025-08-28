@@ -154,7 +154,7 @@ text-align: left;
 
 table th {
 background: var(--primary);
-color: #fff;
+color: #e52020d0;
 }
 
 table tr:nth-child(even) {
